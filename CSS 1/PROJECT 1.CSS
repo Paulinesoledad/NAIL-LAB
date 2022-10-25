@@ -1,0 +1,648 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    width: 100%;
+    height: 500px;
+    background-image:linear-gradient(rgb(128, 0, 128),rgb(111, 0, 128),rgba(102, 0, 128, 0.537));
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.logo{
+    color: bisque;
+    font-size: 28px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:black;
+    transition: 3s;
+}
+button{
+    border: none;
+    background: lightsalmon;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    gap: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+}
+button:hover{
+    transform: scale(1.0);
+    cursor: pointer;
+}
+.herocontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.img-box{
+    width: 350px;
+    height: 350px;
+    background-color: darkorchid;
+    /* border-bottom: 20px; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: solid white 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 80px;
+    position: relative;
+    margin-left: 50px;
+
+}
+ img{
+     width: 350px; 
+    height: 450px; 
+    position: absolute;
+    bottom: 0;
+    margin-right: 15px;
+
+}
+div h1{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.good{
+    color: goldenrod;
+}
+div p{
+    color: lightyellow;
+    font-size: 15px;
+    margin-top: 20px;
+    font: oblique;
+    margin-bottom: 20px;
+}
+.addresscard{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(rgba(255,0,255,0.1),rgba(255,0,255,0.1),rgba(255,0,255,0.1));
+    padding-left: 10%;
+    margin-top: 0;
+    display: flex;
+}
+.video{
+    background-color: none;
+    margin-left: 5px;
+}
+
+.fa-leaf{
+    color: gray;
+    font-size: 25px;
+    font-weight: bold;
+    font: oblique;
+}
+.p{
+    color: gray;
+    font-size: 25px;
+    font-weight: bold;
+    font: oblique;
+
+}
+.span{
+    color: gray;
+    font-size: 15px;
+    font: oblique;
+    align-items: center;
+}
+.h3-maple{
+    color: gray;
+    font: size 25px;
+    font: oblique;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 20px;
+    /* padding: 15px 25px;  */
+}
+.maple{
+    color: gray;
+    font-size: 25px;
+    font-weight: bold;
+    font: oblique;
+    margin-left: 20px;
+}
+
+.service-section{
+background-color: whitesmoke;
+width: 100%;
+padding-top: 50px;
+padding-left: 10%;
+padding-right: 10%;
+}
+.service-section header{
+color: purple;
+margin: auto;
+font-weight: bold;
+font-size: 20px;
+padding-bottom: 50px;
+    
+}
+.treatment{
+    background-color: rgb(192, 43, 226);
+    background-size: 30px;
+    color: rgba(218, 203, 32, 0.966);
+    border-radius: 5px;
+    font-size: 25px;
+}
+.service-card-wrapper{
+    width: 800px;
+    background-color: darkviolet;
+    display: flex;
+    border-radius: 30px;
+    border: solid white 20px;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+
+}
+.service-card{
+    width: 200px;
+    height: 150px;
+    /* background-color: aquamarine;  */
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.card-3{
+    width: 200px;
+    height: 250px;
+    background-color: darkgoldenrod;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center; 
+    align-items: center; 
+    justify-content: center;
+    position: absolute ;
+    right: +250px;
+    bottom: 0px;
+
+}
+.card-4{
+    position: absolute;
+    right: 0;
+}
+.logo{
+    background-color: purple;
+    width: 50px;
+    height: 50px;
+    border: radius 5px; ;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    /* margin-left: 10px; */
+}
+.service-logo{
+    color: goldenrod;
+    font: bold;
+    font-size: 25px;
+}
+.service-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.service-card p{
+    font-size: 15px;
+    color: beige;
+    font-weight: lighter;
+}
+.service-card-3 h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+
+}
+.service-card-3 p{
+    font-size: 15px;
+    color: brown;
+    font-weight: lighter;
+} 
+.value-section{
+    background-color: whitesmoke;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+}
+.value-image{
+    width: 400px;
+    height: 450px;
+    background-color: blueviolet;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: solid white 20px;
+    position: relative;
+    margin-top: 50px;
+}
+.valuepics{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    bottom: 0;
+}
+
+.value-container{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-left: 10px;  */
+    
+}
+.head{
+    display: flex;
+    
+}
+.gembox{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gem{
+    font-size: 25px;
+    color: gold;
+    position: absolute;
+    left: +5px;
+    bottom: +1px;
+}
+.help-text{
+    color: purple;
+    font-size: 35px;
+    font-weight: bold;
+    font: bold;
+}
+.value-text{
+    color: darkgrey;
+    font-size: 20px;
+    font: oblique;
+    font-weight: bold;
+}
+.value-card-wrapper{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua;  */
+    display: grid; 
+    grid-template-columns: repeat(2,auto);
+    margin: right 10px; ;
+    margin-top: 50px;
+    /* flex-direction: row;  */
+    /* flex-wrap: wrap;  */
+    /* justify-content: space-between;  */
+    
+}
+.value-card{
+    width: 150px;
+    height:130px;
+    background-color: beige;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid white 3px;
+
+} 
+.value-card header h5{
+    color: purple;
+    font: bold;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.card-text{
+    color: darkgray;
+    font-size: 15px;  
+}
+.value-1{
+    position: relative;
+}
+.baby-card-1{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    position: absolute;
+    justify-content: center;
+    left: +15px;
+    top: -20px;
+}
+.heart{
+    font-size: 30px;
+    color: white;
+}
+.value-2{
+    position: relative;
+}
+.baby-card-2{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: gold;
+    position: absolute;
+    justify-content: center;
+    left: +15px;
+    top: -20px; 
+}
+.hand{
+    font-size: 30px;
+    color: white; 
+}
+.value-3{
+    position: relative;
+}
+.baby-card-3{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    position: absolute;
+    justify-content: center;
+    left: +15px;
+    top: -20px;  
+}
+.star{
+    font-size: 30px;
+    color: white;
+}
+.value-4{
+    position: relative;
+}
+.baby-card-4{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    position: absolute;
+    justify-content: center;
+    left: +15px;
+    top: -20px;  
+}
+.love{
+    font-size: 30px;
+    color: white; 
+}
+.appointment-section{
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+   
+}
+.appointment-wrapper{
+    width: 920px;
+    background-color: blueviolet;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid white 20px;
+    border-radius: 50px;
+    position: relative;
+}
+.flag-box{
+    width: 40px;
+    height: 40px;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    /* margin-top: 50px; */
+    position: absolute;
+    top: +50px;
+    left: +400px;
+    /* justify-content: center; */
+}
+.flag{
+    font-size: 30px;
+    color:  gold;
+}
+h4{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nail-lab{
+    color: goldenrod;
+}
+.appointment-text{
+    color: darkgrey;
+    font-size: 20px;
+    font-weight: bold;
+    /* max-width: 500px; */
+    /* text-align: center; */
+}
+.started{
+    background-color: goldenrod;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.about-section{
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 80px;
+}
+.about-container{
+    width: 970px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.about-image{
+    width: 370px;
+    height: 400px;
+    background-color: blueviolet;
+    border: solid white 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: relative;
+    /* justify-content: center; */
+}
+.about-pics{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    bottom:0;
+    left: +2px;  
+}
+.about-text-wrapper{
+    width: 450px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.text-card-1{
+    width: 450px;
+    height: 150px;
+    /* background-color: aqua; */
+    /* margin-bottom: 50px; */
+    position: relative;
+
+}
+.envelope-box{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    justify-content: center;
+    position: absolute;
+    top: +1px;
+    left: +10px;
+}
+.envelope{
+    font-size: 25px;
+    color: yellow;
+}
+.about-head{
+    color: purple;
+    font: bold;
+    font-size: 35px;
+    font-weight: bold;
+}
+.about-p-1{
+    color: darkgray;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.text-card-2{
+    width: 350px;
+    height: 120px;
+    background-color: lavender;
+    border: solid white 3px;
+    border-radius: 25px;
+    position: relative;
+    padding: 50px;
+
+}
+.text-card-2-box{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    padding: 5px;
+    position: absolute;
+    top: -25px;
+    left: +10px;
+}
+.comment{
+    color: white;
+    font-size: 30px;
+}
+.comment-text{
+    color: darkgray;
+    font-size: 15px;
+    
+}
+h6{
+    color: purple;
+    font-size: 20px;
+}
+.text-1{
+    color: darkgrey;
+    font-size: 10px;
+}
+.footer-section{
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}
+.footer-container{
+    width: 970px;
+    height: 250px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    align-items: center;
+}
+.footer-card{
+    width: 95px;
+    height: 150px;
+    padding: 10px;
+    /* background-color: aquamarine; */
+}
+.footer-card-1{
+    width: 270px;
+    height: 150px;
+    /* background-color: bisque; */
+    padding: 10px;
+}
+.footer-card-1 h3{
+    color: purple;
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer-text{
+    color: darkgray;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-card h6{
+    color: purple;
+    font-size:20px ; 
+    font-weight: bold;
+}
+.footer-card p{
+    color: darkgray;
+    font-size: 16px;
+    font-weight: bold;  
+}
+@media screen and (max-width: 768px) {
+    body{
+     text-align: center;   
+    }
+    
+}
